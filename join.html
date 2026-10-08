@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AutoPot — Uitnodiging</title>
+<meta property="og:title" content="Je bent uitgenodigd voor AutoPot">
+<meta property="og:description" content="Verdeel samen eerlijk de kosten van jullie gedeelde auto.">
+<style>
+  :root { color-scheme: light dark; --bg:#fff; --fg:#1c1c1e; --muted:#6b7280; --card:#f2f2f7; --accent:#0a84ff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#121212; --fg:#e6e6e6; --muted:#9ca3af; --card:#1f1f22; } }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5; max-width: 480px; margin: 0 auto; padding: 48px 20px; color: var(--fg); background: var(--bg);
+    text-align: center; }
+  .icon { font-size: 3.2rem; line-height: 1; }
+  h1 { font-size: 1.5rem; margin: .5em 0 .2em; }
+  p { margin: .4em 0; }
+  .muted { color: var(--muted); font-size: .95rem; }
+  .btn { display: block; width: 100%; box-sizing: border-box; padding: 14px 16px; margin: 12px 0 0;
+    border-radius: 14px; font-size: 1.05rem; font-weight: 600; text-decoration: none; border: 0; cursor: pointer; }
+  .primary { background: var(--accent); color: #fff; }
+  .secondary { background: var(--card); color: var(--accent); }
+  .card { background: var(--card); border-radius: 16px; padding: 18px; margin-top: 28px; }
+  .code { font: 700 2rem ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 2px; margin: 6px 0 10px; }
+  .copy { background: transparent; color: var(--accent); border: 1px solid var(--accent); border-radius: 10px;
+    padding: 8px 14px; font-size: .95rem; cursor: pointer; }
+  ol { text-align: left; padding-left: 1.3em; margin: 10px 0 0; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="icon">🚗</div>
+<h1>Je bent uitgenodigd voor AutoPot</h1>
+<p class="muted">Verdeel samen eerlijk de kosten van jullie gedeelde auto.</p>
+
+<div id="withCode">
+  <a id="open" class="btn primary" href="#">Open in AutoPot</a>
+  <a class="btn secondary" href="https://apps.apple.com/app/id6820485396">Download AutoPot</a>
+  <p class="muted" style="font-size:.85rem;margin-top:8px">Nog niet in de App Store? Vraag degene die je uitnodigde om een testuitnodiging (TestFlight).</p>
+
+  <div class="card">
+    <p class="muted">Je uitnodigingscode</p>
+    <div id="code" class="code">—</div>
+    <button class="copy" id="copy">Kopieer code</button>
+    <ol class="muted">
+      <li>Installeer AutoPot en log in.</li>
+      <li>Tik hierboven op <b>Open in AutoPot</b>, of kies in de app <b>Auto toevoegen of meedoen → Meedoen</b> en vul de code in.</li>
+      <li>De beheerder keurt je verzoek goed. Klaar!</li>
+    </ol>
+  </div>
+</div>
+
+<div id="noCode" class="hidden card">
+  <p>Deze link mist een uitnodigingscode. Vraag degene die je uitnodigde om de link opnieuw te sturen.</p>
+</div>
+
+<script>
+  (function () {
+    var params = new URLSearchParams(location.search);
+    var raw = (params.get("code") || "").trim().toLowerCase().replace(/[^a-z0-9-]/g, "");
+    if (!raw) {
+      document.getElementById("withCode").classList.add("hidden");
+      document.getElementById("noCode").classList.remove("hidden");
+      return;
+    }
+    // Zelfde opmaak als in de app: 8 tekens → K7MQ-2XRA; oude ID's blijven zoals ze zijn.
+    var pretty = (raw.length === 8 && raw.indexOf("-") < 0)
+      ? (raw.slice(0, 4) + "-" + raw.slice(4)).toUpperCase() : raw;
+    document.getElementById("code").textContent = pretty;
+    document.getElementById("open").href = "autopot://join?code=" + encodeURIComponent(raw);
+    document.getElementById("copy").addEventListener("click", function () {
+      var btn = this;
+      var done = function () { btn.textContent = "Gekopieerd ✓"; setTimeout(function () { btn.textContent = "Kopieer code"; }, 1800); };
+      if (navigator.clipboard) { navigator.clipboard.writeText(pretty).then(done, done); } else { done(); }
+    });
+  })();
+</script>
+</body>
+</html>
