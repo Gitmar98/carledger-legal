@@ -1,11 +1,11 @@
-# Privacyverklaring — CarLedger
+# Privacyverklaring — AutoPot
 
-**Laatst bijgewerkt:** 5 juni 2026
-**Versie:** 1.0
+**Laatst bijgewerkt:** 8 oktober 2026
+**Versie:** 1.1
 
-Deze privacyverklaring legt uit welke persoonsgegevens de app **CarLedger** verwerkt,
+Deze privacyverklaring legt uit welke persoonsgegevens de app **AutoPot** verwerkt,
 waarom, op welke juridische grondslag, met wie ze worden gedeeld, hoe lang ze worden
-bewaard en welke rechten je hebt. CarLedger is een app waarmee een vaste groep mensen
+bewaard en welke rechten je hebt. AutoPot is een app waarmee een vaste groep mensen
 de kosten van één of meer gedeelde auto's eerlijk verdeelt (ritten, tankbeurten en
 uitgaven).
 
@@ -90,7 +90,7 @@ kun je de app niet gebruiken. Locatie en meldingen zijn volledig optioneel.
 
 ## 4. Locatiegegevens in detail
 
-- CarLedger gebruikt je locatie **alleen op het moment dat je de app gebruikt** en alleen
+- AutoPot gebruikt je locatie **alleen op het moment dat je de app gebruikt** en alleen
   nadat je daar toestemming voor hebt gegeven (iOS vraagt dit via de standaard
   toestemmingsvraag "tijdens gebruik van de app").
 - De locatie wordt **eenmalig** opgehaald wanneer je bij een rit op "gebruik mijn locatie"
@@ -98,7 +98,7 @@ kun je de app niet gebruiken. Locatie en meldingen zijn volledig optioneel.
 - We bewaren de coördinaten en het afgeleide adres alleen bij de betreffende rit, zodat
   je groep ziet waar de auto het laatst stond.
 - Je kunt je toestemming op elk moment intrekken via **iOS Instellingen → Privacy →
-  Locatievoorzieningen → CarLedger**. Reeds vastgelegde locaties verdwijnen daarmee niet
+  Locatievoorzieningen → AutoPot**. Reeds vastgelegde locaties verdwijnen daarmee niet
   automatisch; die kun je verwijderen door de betreffende rit aan te passen of te wissen,
   of door contact met ons op te nemen.
 
@@ -200,7 +200,7 @@ Wat er bij verwijdering met gedeelde transacties gebeurt, staat in hoofdstuk 7.
 
 ## 11. Kinderen
 
-CarLedger is bedoeld voor volwassenen die een auto delen en is niet gericht op kinderen.
+AutoPot is bedoeld voor volwassenen die een auto delen en is niet gericht op kinderen.
 We verzamelen niet bewust gegevens van personen jonger dan 16 jaar. Denk je dat een kind
 ons toch gegevens heeft verstrekt, neem dan contact op zodat we deze kunnen verwijderen.
 

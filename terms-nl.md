@@ -1,10 +1,10 @@
-# Gebruiksvoorwaarden — CarLedger
+# Gebruiksvoorwaarden — AutoPot
 
-**Laatst bijgewerkt:** 5 juni 2026
-**Versie:** 1.0
+**Laatst bijgewerkt:** 8 oktober 2026
+**Versie:** 1.1
 
 Deze gebruiksvoorwaarden ("Voorwaarden") gelden voor het gebruik van de app
-**CarLedger** ("de App"). Door de App te downloaden of te gebruiken ga je akkoord met
+**AutoPot** ("de App"). Door de App te downloaden of te gebruiken ga je akkoord met
 deze Voorwaarden. Lees ze samen met de [Privacyverklaring](privacy-nl.md).
 
 ---
@@ -20,11 +20,11 @@ De App wordt aangeboden door:
 
 ## 2. Wat de App doet
 
-CarLedger helpt een vaste groep mensen om de kosten van één of meer gedeelde auto's
+AutoPot helpt een vaste groep mensen om de kosten van één of meer gedeelde auto's
 eerlijk te verdelen. Je legt ritten, tankbeurten en uitgaven vast; de App **berekent**
 op basis daarvan ieders aandeel en saldo.
 
-**Belangrijk — de App verplaatst geen geld.** CarLedger is een administratie- en
+**Belangrijk — de App verplaatst geen geld.** AutoPot is een administratie- en
 rekenhulpmiddel. De App voert **geen** betalingen uit, beheert **geen** geld en is
 **geen** bank-, betaal- of boekhouddienst. De onderlinge verrekening en het daadwerkelijk
 overmaken van bedragen regelen de leden zelf, buiten de App om. De getoonde standen zijn
@@ -45,8 +45,12 @@ afspraken.
 
 ## 4. Abonnement, prijs en opzeggen
 
-- Toegang tot de App vereist een **betaald abonnement** van **€10 per jaar**
-  (auto-renewable / automatisch verlengend).
+- Toegang tot de App vereist een **betaald abonnement** (auto-renewable /
+  automatisch verlengend), bij de start **€0,99 per maand**. De actuele prijs zie je
+  altijd in de App en in de App Store voordat je koopt.
+- Nieuwe abonnees kunnen een **gratis proefperiode** krijgen (bij de start 2 weken).
+  Die gaat **automatisch over in een betaald abonnement**, tenzij je minstens 24 uur
+  vóór het einde van de proefperiode opzegt.
 - **Facturering verloopt via je Apple-account** (App Store). Aankopen en verlengingen
   worden door Apple afgehandeld, niet door ons.
 - Het abonnement **verlengt automatisch** aan het einde van elke periode tegen het dan

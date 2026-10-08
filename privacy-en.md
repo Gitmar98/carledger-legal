@@ -1,11 +1,11 @@
-# Privacy Policy — CarLedger
+# Privacy Policy — AutoPot
 
-**Last updated:** 5 June 2026
-**Version:** 1.0
+**Last updated:** 8 October 2026
+**Version:** 1.1
 
-This Privacy Policy explains which personal data the **CarLedger** app processes, why, on
+This Privacy Policy explains which personal data the **AutoPot** app processes, why, on
 what legal basis, with whom it is shared, how long it is kept, and what rights you have.
-CarLedger is an app that lets a fixed group of people fairly split the costs of one or
+AutoPot is an app that lets a fixed group of people fairly split the costs of one or
 more shared cars (trips, refuelling and expenses).
 
 We process as little data as possible, use **no** tracking, **no** advertising and **no**
@@ -86,14 +86,14 @@ cannot use the app. Location and notifications are entirely optional.
 
 ## 4. Location data in detail
 
-- CarLedger uses your location **only while you are using the app** and only after you
+- AutoPot uses your location **only while you are using the app** and only after you
   have given permission (iOS asks this with the standard "While Using the App" prompt).
 - Location is fetched **once** when you tap "use my location" on a trip — there is **no**
   continuous or background tracking.
 - We store the coordinates and the derived address only with the relevant trip, so your
   group can see where the car was last parked.
 - You can withdraw your permission at any time via **iOS Settings → Privacy → Location
-  Services → CarLedger**. Locations already saved are not removed automatically; you can
+  Services → AutoPot**. Locations already saved are not removed automatically; you can
   delete them by editing or deleting the relevant trip, or by contacting us.
 
 ---
@@ -191,7 +191,7 @@ What happens to shared transactions on deletion is described in section 7.
 
 ## 11. Children
 
-CarLedger is intended for adults who share a car and is not directed at children. We do
+AutoPot is intended for adults who share a car and is not directed at children. We do
 not knowingly collect data from persons under 16. If you believe a child has provided us
 data, please contact us so we can delete it.
 

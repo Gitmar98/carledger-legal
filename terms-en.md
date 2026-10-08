@@ -1,9 +1,9 @@
-# Terms of Use — CarLedger
+# Terms of Use — AutoPot
 
-**Last updated:** 5 June 2026
-**Version:** 1.0
+**Last updated:** 8 October 2026
+**Version:** 1.1
 
-These Terms of Use ("Terms") apply to your use of the **CarLedger** app ("the App"). By
+These Terms of Use ("Terms") apply to your use of the **AutoPot** app ("the App"). By
 downloading or using the App you agree to these Terms. Please read them together with the
 [Privacy Policy](privacy-en.md).
 
@@ -20,11 +20,11 @@ The App is provided by:
 
 ## 2. What the App does
 
-CarLedger helps a fixed group of people fairly split the costs of one or more shared cars.
+AutoPot helps a fixed group of people fairly split the costs of one or more shared cars.
 You record trips, refuelling and expenses; based on these the App **calculates** each
 person's share and balance.
 
-**Important — the App does not move money.** CarLedger is an administration and
+**Important — the App does not move money.** AutoPot is an administration and
 calculation tool. The App does **not** make payments, does **not** hold money and is
 **not** a banking, payment or accounting service. Settling up and actually transferring
 amounts is arranged by the members themselves, outside the App. The balances shown are
@@ -44,8 +44,12 @@ informational; you remain responsible for checking your data and arrangements.
 
 ## 4. Subscription, price and cancellation
 
-- Access to the App requires a **paid subscription** of **€10 per year**
-  (auto-renewable).
+- Access to the App requires a **paid subscription** (auto-renewable), at launch
+  **€0.99 per month**. The current price is always shown in the App and on the App
+  Store before you buy.
+- New subscribers may get a **free trial** (2 weeks at launch). It **automatically
+  converts into a paid subscription** unless you cancel at least 24 hours before the
+  end of the trial.
 - **Billing is handled through your Apple account** (App Store). Purchases and renewals
   are processed by Apple, not by us.
 - The subscription **renews automatically** at the end of each period at the then-current
